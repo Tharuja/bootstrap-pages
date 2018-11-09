@@ -1,0 +1,33 @@
+{
+  "name": "bootstrapped-spacex",
+  "version": "1.0.0",
+  "description": "first project on bootstrap-pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igavelyuk/bootstrap-pages.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Igor Gavelyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igavelyuk/bootstrap-pages/issues"
+  },
+  "homepage": "https://github.com/igavelyuk/bootstrap-pages#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-minify": "0.0.14",
+    "gulp-image": "^4.3.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

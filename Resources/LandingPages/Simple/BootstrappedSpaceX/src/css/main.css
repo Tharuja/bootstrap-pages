@@ -1,0 +1,94 @@
+body {
+  background-color: #142A4F; }
+  body .navbox {
+    float: right;
+    text-align: right;
+    width: 100%; }
+  body .navbar-nav {
+    float: right; }
+  body .mblue {
+    background-color: #142A4F; }
+  body .red {
+    background-color: red; }
+  body h1 {
+    padding-top: 50%;
+    font-family: 'Play', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: #A5BEC2; }
+  body h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #142A4F; }
+  body .highlight {
+    color: #A5BEC2; }
+  body a {
+    color: #0C121E; }
+  body nav a img {
+    height: 50px;
+    width: 50px; }
+  body header {
+    overflow: hidden;
+    height: 1000px;
+    width: 100%;
+    background-color: #100F15;
+    background-image: url("/img/cover.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0); }
+  body section.projects {
+    padding-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #A5BEC2;
+    height: 600px;
+    width: 100%;
+    overflow: hidden; }
+  body .icons {
+    display: inline-block;
+    font-size: 20px;
+    height: 20px;
+    width: 20px; }
+  body .tw {
+    background-size: contain;
+    background-image: url("/img/twitter-icon.png"); }
+  body .fb {
+    background-size: contain;
+    background-image: url("/img/facebook-icon.png"); }
+  body .gg {
+    background-size: contain;
+    background-image: url("/img/googleplus-icon.png"); }
+  body .pi {
+    background-size: contain;
+    background-image: url("/img/pinterest-icon.png"); }
+  body .in {
+    background-size: contain;
+    background-image: url("/img/instagram-icon.png"); }
+  body .yo {
+    background-size: contain;
+    background-image: url("/img/youtube-icon.png"); }
+  body .li {
+    background-size: contain;
+    background-image: url("/img/linkedin-icon.png"); }
+  body img.avatar {
+    margin: 0px 1% 1% 0px;
+    float: left;
+    height: 170px;
+    width: 170px;
+    border-radius: 10%; }
+  body section.team {
+    background-color: #A5BEC2;
+    padding-top: 30px;
+    padding-left: 5%;
+    overflow: hidden;
+    height: auto;
+    width: 100%; }
+    body section.team p {
+      padding: 0px 30px 60px 0px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px; }
+  body section.contacts {
+    padding: 10%;
+    color: #A5BEC2; }

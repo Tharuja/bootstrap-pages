@@ -1,0 +1,135 @@
+$base-color: #142A4F;
+$second-color: #A5BEC2;
+$links-color: #0C121E;
+$img-border-color:#100F15;
+
+// font-family: 'Play', sans-serif;
+// font-family: 'Orbitron', sans-serif;
+// font-family: 'Armata', sans-serif;
+
+body{
+  .navbox{
+    float: right;
+    text-align: right;
+    width: 100%;
+  }
+  .navbar-nav{
+    float: right;
+    // outline: 1px solid red;
+  }
+  .mblue{
+    background-color:$base-color;
+  }
+  .red{
+    background-color: red;
+  }
+  background-color: $base-color;
+  h1{
+    padding-top: 50%;
+    font-family: 'Play', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: $second-color;
+  }
+  h2{
+    font-family: 'Orbitron', sans-serif;
+    // font-family: 'Play', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: $base-color;
+  }
+  .highlight{
+    color: $second-color;
+  }
+  a{
+    color: $links-color;
+  }
+  nav{
+    a{
+      img{
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+  header{
+    overflow: hidden;
+    height: 1000px;
+    width:100%;
+    background-color:$img-border-color;
+    background-image: url("/img/cover.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  }
+  section.projects{
+    padding-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: $second-color;
+    height: 600px;
+    width:100%;
+    // outline: 1px solid red;
+    overflow: hidden;
+  }
+  .icons{
+    display: inline-block;
+    font-size:20px;
+    height: 20px;
+    width: 20px;
+    }
+    .tw{
+      background-size: contain;
+      background-image: url("/img/twitter-icon.png");
+    }
+    .fb{
+      background-size: contain;
+      background-image: url("/img/facebook-icon.png");
+    }
+    .gg{
+      background-size: contain;
+      background-image: url("/img/googleplus-icon.png");
+    }
+    .pi{
+      background-size: contain;
+      background-image: url("/img/pinterest-icon.png");
+    }
+    .in{
+      background-size: contain;
+      background-image: url("/img/instagram-icon.png");
+    }
+    .yo{
+      background-size: contain;
+      background-image: url("/img/youtube-icon.png");
+    }
+    .li{
+      background-size: contain;
+      background-image: url("/img/linkedin-icon.png");
+    }
+    // .tw .fb .gg .pi .in .yo .li
+  img.avatar{
+    margin: 0px 1% 1% 0px;
+    float: left;
+    height: 170px;
+    width: 170px;
+    border-radius: 10%;
+  }
+  section.team{
+    background-color: $second-color;
+    padding-top: 30px;
+    padding-left: 5%;
+    overflow: hidden;
+    height: auto;
+    width:100%;
+    p{
+      padding: 0px 30px 60px 0px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px;
+    }
+  }
+  section.contacts{
+    padding: 10%;
+    color: $second-color;
+  }
+}
